@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gladkov_Kursovaya.Objects", "Objects/Gladkov_Kursovaya.Objects.csproj", "d31506e3-9105-43a2-a9ec-f79d0f48d760"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gladkov_Kursovaya.Tests", "Tests/Gladkov_Kursovaya.Tests.csproj", "497ed614-1bfa-46dc-8ac1-e74be92159ac"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gladkov_Kursovaya.ODataBackend", "ODataBackend/Gladkov_Kursovaya.ODataBackend.csproj", "d27d5311-696e-46c5-997f-1c9790e6d6bb"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gladkov_Kursovaya.IntegrationTests", "IntegrationTests/Gladkov_Kursovaya.IntegrationTests.csproj", "f1a86f8f-47f6-435a-9065-b11033b1f237"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		d31506e3-9105-43a2-a9ec-f79d0f48d760.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		d31506e3-9105-43a2-a9ec-f79d0f48d760.Debug|Any CPU.Build.0 = Debug|Any CPU
+		d31506e3-9105-43a2-a9ec-f79d0f48d760.Release|Any CPU.ActiveCfg = Release|Any CPU
+		d31506e3-9105-43a2-a9ec-f79d0f48d760.Release|Any CPU.Build.0 = Release|Any CPU
+		497ed614-1bfa-46dc-8ac1-e74be92159ac.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		497ed614-1bfa-46dc-8ac1-e74be92159ac.Debug|Any CPU.Build.0 = Debug|Any CPU
+		497ed614-1bfa-46dc-8ac1-e74be92159ac.Release|Any CPU.ActiveCfg = Release|Any CPU
+		497ed614-1bfa-46dc-8ac1-e74be92159ac.Release|Any CPU.Build.0 = Release|Any CPU
+		d27d5311-696e-46c5-997f-1c9790e6d6bb.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		d27d5311-696e-46c5-997f-1c9790e6d6bb.Debug|Any CPU.Build.0 = Debug|Any CPU
+		d27d5311-696e-46c5-997f-1c9790e6d6bb.Release|Any CPU.ActiveCfg = Release|Any CPU
+		d27d5311-696e-46c5-997f-1c9790e6d6bb.Release|Any CPU.Build.0 = Release|Any CPU
+		f1a86f8f-47f6-435a-9065-b11033b1f237.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		f1a86f8f-47f6-435a-9065-b11033b1f237.Debug|Any CPU.Build.0 = Debug|Any CPU
+		f1a86f8f-47f6-435a-9065-b11033b1f237.Release|Any CPU.ActiveCfg = Release|Any CPU
+		f1a86f8f-47f6-435a-9065-b11033b1f237.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

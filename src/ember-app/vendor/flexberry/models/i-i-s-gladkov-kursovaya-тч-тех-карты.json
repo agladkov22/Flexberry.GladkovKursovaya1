@@ -1,0 +1,52 @@
+﻿{
+  "name": "IISGladkov_KursovayaТчТехКарты",
+  "modelName": "i-i-s-gladkov-kursovaya-тч-тех-карты",
+  "className": "ТчТехКарты",
+  "nameSpace": "IIS.Gladkov_Kursovaya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заявки",
+      "relatedTo": "i-i-s-gladkov-kursovaya-заявки",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "оборудование",
+      "relatedTo": "i-i-s-gladkov-kursovaya-оборудование",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "чертежи",
+      "relatedTo": "i-i-s-gladkov-kursovaya-чертежи",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "техКарты",
+      "relatedTo": "i-i-s-gladkov-kursovaya-тех-карты",
+      "inverse": "тчТехКарты"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТчТехКартыE",
+      "modelName": "i-i-s-gladkov-kursovaya-тч-тех-карты",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

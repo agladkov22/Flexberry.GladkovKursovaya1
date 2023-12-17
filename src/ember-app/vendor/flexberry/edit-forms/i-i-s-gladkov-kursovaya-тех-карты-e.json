@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ТчТехКарты.Заявки",
+      "projection": "ЗаявкиL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ТчТехКарты.Чертежи",
+      "projection": "ЧертежиL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ТчТехКарты.Оборудование",
+      "projection": "ОборудованиеL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Тех карты",
+  "name": "IISGladkov_KursovayaТехКартыE",
+  "className": "ТехКартыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-gladkov-kursovaya-тех-карты",
+      "modelProjection": "ТехКартыE"
+    }
+  ]
+}
